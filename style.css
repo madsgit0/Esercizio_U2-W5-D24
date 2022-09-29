@@ -1,7 +1,10 @@
+body{
+    background-color: #51575b;
+}
+
 main{
     margin: 0;
     padding: 30px;
-    background-color: #51575b;
     font-family: 'DM Sans', sans-serif;
 
 }
