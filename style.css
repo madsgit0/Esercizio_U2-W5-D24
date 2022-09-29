@@ -1,0 +1,31 @@
+main{
+    margin: 30px;
+}
+
+section{
+    width: 55%;
+}
+
+.text-box{
+    margin-top: 20px;
+    border: 3px solid blue;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
