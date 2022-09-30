@@ -38,8 +38,34 @@ function justify() {
     }
 }
 
+//esercizio 3
+
+//controlla che l'input abbia un valore
+
+let list = document.getElementsByClassName('list')
+
+function addGoal(event){
+    if (event.key !== 'Enter'){
+        return;
+    }
+
+    let input = document.getElementById('input-field')
     
-    
+    if (input.value !== ''){
+        list.innerHTML += `<div class="goal">${input.value}</div>`
+        input.value=''
+        
+        console.log(list)
+    }
+
+   
+}
+
+//prendi il valore
+
+//inseriscilo nella lista
+ 
+ 
 
 
 
